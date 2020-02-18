@@ -1,10 +1,8 @@
 package leetcode.array;
 
-import java.util.Arrays;
+
 import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-import java.util.stream.Collectors;
+
 
 /**
  * leetcode试题数组部分的实现
@@ -56,10 +54,9 @@ public class Solution {
 
         // 首先去重
         HashSet<Integer> set = new HashSet<Integer>();
-        for(int i : nums){
+        for (int i : nums) {
             set.add(i);
         }
-
 
 
         return nums;
