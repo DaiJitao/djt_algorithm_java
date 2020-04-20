@@ -1,5 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
-.idea/
+.idea/*.xml
 .idea/workspace.xml
 src/main/resources/
 src/test/
