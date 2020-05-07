@@ -12,6 +12,7 @@ public class InterruptionInJava implements Runnable {
         Thread.sleep(5000);
         System.out.println("状态：" + thread.isInterrupted());
         thread.interrupt();
+        thread.interrupt();
         System.out.println("状态：" + thread.isInterrupted());
         System.out.println("end");
     }
